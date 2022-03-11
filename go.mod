@@ -1,3 +1,48 @@
 module github.com/divisionone/go-plugins
 
 go 1.17
+
+require (
+	github.com/divisionone/cli v1.0.0
+	github.com/divisionone/go-micro v1.0.3
+	github.com/divisionone/micro v1.0.6
+	github.com/nats-io/nats.go v1.13.1-0.20220308171302-2f2f6968e98d
+)
+
+require (
+	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
+	github.com/divisionone/go-rcache v1.0.1 // indirect
+	github.com/divisionone/mdns v1.0.0 // indirect
+	github.com/divisionone/util v1.0.2 // indirect
+	github.com/fatih/color v1.9.0 // indirect
+	github.com/go-log/log v0.2.0 // indirect
+	github.com/golang/protobuf v1.3.5 // indirect
+	github.com/google/btree v1.0.0 // indirect
+	github.com/google/uuid v1.1.2 // indirect
+	github.com/hashicorp/consul/api v1.5.0 // indirect
+	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
+	github.com/hashicorp/go-hclog v0.12.0 // indirect
+	github.com/hashicorp/go-immutable-radix v1.0.0 // indirect
+	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
+	github.com/hashicorp/go-uuid v1.0.2 // indirect
+	github.com/hashicorp/golang-lru v0.5.3 // indirect
+	github.com/hashicorp/memberlist v0.3.1 // indirect
+	github.com/hashicorp/serf v0.9.6 // indirect
+	github.com/mattn/go-colorable v0.1.6 // indirect
+	github.com/mattn/go-isatty v0.0.12 // indirect
+	github.com/micro/go-log v0.1.0 // indirect
+	github.com/miekg/dns v1.1.43 // indirect
+	github.com/mitchellh/go-homedir v1.1.0 // indirect
+	github.com/mitchellh/hashstructure v1.1.0 // indirect
+	github.com/mitchellh/mapstructure v1.1.2 // indirect
+	github.com/nats-io/jwt v1.2.2 // indirect
+	github.com/nats-io/nkeys v0.3.0 // indirect
+	github.com/nats-io/nuid v1.0.1 // indirect
+	github.com/pborman/uuid v1.2.1 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/stretchr/testify v1.7.0 // indirect
+	golang.org/x/crypto v0.0.0-20220307211146-efcb8507fb70 // indirect
+	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
+	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+)
