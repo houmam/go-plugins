@@ -2,22 +2,12 @@ module github.com/divisionone/go-plugins
 
 go 1.17
 
-replace google.golang.org/grpc => google.golang.org/grpc v1.33.0
-
-replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
-
-replace github.com/prometheus/common => github.com/prometheus/common v0.26.0
-
-replace github.com/hashicorp/consul/api => github.com/hashicorp/consul/api v1.5.0
-
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
-
-replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884
+replace github.com/divisionone/go-micro => github.com/divisionone/go-micro v0.0.0-20220418234210-0f996366e1ba
 
 require (
-	github.com/divisionone/cli v1.0.0
+	github.com/divisionone/cli v0.2.2-0.20220418232820-7231882c8555
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
-	github.com/divisionone/micro v1.2.4
+	github.com/divisionone/micro v0.0.0-20220418234947-460f4b00b476
 	github.com/nats-io/nats.go v1.14.0
 )
 
@@ -58,3 +48,5 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
+
+replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
