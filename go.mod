@@ -2,17 +2,17 @@ module github.com/divisionone/go-plugins
 
 go 1.17
 
-replace github.com/hashicorp/consul/api => github.com/hashicorp/consul/api v1.5.0
-
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
-
-replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884
-
 replace google.golang.org/grpc => google.golang.org/grpc v1.33.0
 
 replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
 
 replace github.com/prometheus/common => github.com/prometheus/common v0.26.0
+
+replace github.com/hashicorp/consul/api => github.com/hashicorp/consul/api v1.5.0
+
+replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
+
+replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884
 
 require (
 	github.com/divisionone/cli v1.0.0
@@ -25,7 +25,7 @@ require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1 // indirect
 	github.com/divisionone/mdns v1.0.1 // indirect
-	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11 // indirect
+	github.com/divisionone/micro-go-log v0.0.0-20220418232529-4361a503ea3a // indirect
 	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/go-log/log v0.2.0 // indirect
@@ -44,11 +44,12 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.1.2 // indirect
-	github.com/nats-io/jwt v1.2.2 // indirect
+	github.com/nats-io/nats-server/v2 v2.8.0 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/stretchr/testify v1.7.0 // indirect
 	golang.org/x/crypto v0.0.0-20220314234724-5d542ad81a58 // indirect
 	golang.org/x/mod v0.4.2 // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
