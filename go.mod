@@ -2,18 +2,31 @@ module github.com/divisionone/go-plugins
 
 go 1.17
 
+replace github.com/hashicorp/consul/api => github.com/hashicorp/consul/api v1.5.0
+
+replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
+
+replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884
+
+replace google.golang.org/grpc => google.golang.org/grpc v1.33.0
+
+replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
+
+replace github.com/prometheus/common => github.com/prometheus/common v0.26.0
+
 require (
 	github.com/divisionone/cli v1.0.0
-	github.com/divisionone/go-micro v1.2.1
-	github.com/divisionone/micro v0.0.0-20220331030556-564f178dcea4
+	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
+	github.com/divisionone/micro v1.2.4
 	github.com/nats-io/nats.go v1.14.0
 )
 
 require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
-	github.com/divisionone/go-rcache v1.0.3 // indirect
+	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1 // indirect
 	github.com/divisionone/mdns v1.0.1 // indirect
-	github.com/divisionone/util v1.0.5 // indirect
+	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11 // indirect
+	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/go-log/log v0.2.0 // indirect
 	github.com/golang/protobuf v1.5.0 // indirect
@@ -27,24 +40,20 @@ require (
 	github.com/hashicorp/serf v0.9.6 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
-	github.com/micro/go-log v0.1.0 // indirect
 	github.com/miekg/dns v1.1.46 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.1.2 // indirect
-	github.com/nats-io/nats-server/v2 v2.8.0 // indirect
+	github.com/nats-io/jwt v1.2.2 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
 	golang.org/x/crypto v0.0.0-20220314234724-5d542ad81a58 // indirect
 	golang.org/x/mod v0.4.2 // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	google.golang.org/protobuf v1.26.0-rc.1 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 )
-
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
