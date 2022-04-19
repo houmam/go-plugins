@@ -5,9 +5,9 @@ go 1.17
 replace github.com/divisionone/go-micro => github.com/divisionone/go-micro v0.0.0-20220418234210-0f996366e1ba
 
 require (
-	github.com/divisionone/cli v0.2.2-0.20220418232820-7231882c8555
+	github.com/divisionone/cli v1.0.0
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
-	github.com/divisionone/micro v0.0.0-20220419000238-f6f0b15e8c70
+	github.com/divisionone/micro v0.0.0-20220419001613-e00e853550fc
 	github.com/nats-io/nats.go v1.14.0
 )
 
@@ -26,6 +26,7 @@ require (
 	github.com/hashicorp/go-hclog v0.12.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.0.0 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
+	github.com/hashicorp/go-sockaddr v1.0.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
 	github.com/hashicorp/serf v0.9.6 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
