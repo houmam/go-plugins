@@ -2,7 +2,9 @@ module github.com/divisionone/go-plugins
 
 go 1.17
 
-replace github.com/divisionone/go-micro => github.com/divisionone/go-micro v0.0.0-20220418234210-0f996366e1ba
+replace github.com/divisionone/go-micro => github.com/divisionone/go-micro v0.0.0-20220418235949-2c7c2ae08854
+
+replace github.com/divisionone/cli => github.com/divisionone/cli v0.2.2-0.20220418232820-7231882c8555
 
 require (
 	github.com/divisionone/cli v1.0.0
@@ -47,7 +49,5 @@ require (
 	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	google.golang.org/protobuf v1.28.0 // indirect
+	google.golang.org/protobuf v1.26.0-rc.1 // indirect
 )
-
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
