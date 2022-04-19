@@ -7,7 +7,7 @@ replace github.com/divisionone/go-micro => github.com/divisionone/go-micro v0.0.
 require (
 	github.com/divisionone/cli v0.2.2-0.20220418232820-7231882c8555
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
-	github.com/divisionone/micro v0.0.0-20220418234947-460f4b00b476
+	github.com/divisionone/micro v0.0.0-20220419000238-f6f0b15e8c70
 	github.com/nats-io/nats.go v1.14.0
 )
 
