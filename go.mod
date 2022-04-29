@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/divisionone/cli v1.0.0
-	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
+	github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf
 	github.com/divisionone/micro v1.2.5-0.20220420225710-b20fa651943c
 	github.com/nats-io/nats.go v1.13.1-0.20220308171302-2f2f6968e98d
 )
@@ -17,7 +17,7 @@ require (
 	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/go-log/log v0.2.0 // indirect
-	github.com/golang/protobuf v1.5.0 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/hashicorp/consul/api v1.5.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
@@ -47,4 +47,4 @@ require (
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
 
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
+replace github.com/golang/protobuf => github.com/golang/protobuf v1.5.2
