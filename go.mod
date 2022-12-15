@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/divisionone/cli v0.9.1-0.20221207070823-afa2aceba99f
 	github.com/divisionone/go-micro v0.9.1-0.20221207071810-19ca01a57ff3
-	github.com/divisionone/micro v0.0.0-20221207064911-4791be8d6c93
+	github.com/divisionone/micro/plugin v0.0.0-20221215005043-3880c21c6489
 	github.com/nats-io/nats.go v1.21.0
 )
 
