@@ -91,11 +91,8 @@ func (n *nbroker) Connect() error {
 	n.Lock()
 	defer n.Unlock()
 
-	if n.conn != nil {
-		switch n.conn.Status() {
-		case nats.CONNECTED, nats.RECONNECTING, nats.DISCONNECTED, nats.DRAINING_SUBS, nats.DRAINING_PUBS:
-			return nil
-		}
+	if n.conn != nil && !n.conn.IsClosed() {
+		return nil
 	}
 
 	opts := n.nopts
